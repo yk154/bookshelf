@@ -1,0 +1,15 @@
+
+
+.card img {
+  width:250px;
+  height: 250px;
+  margin: 2%;
+  margin-top: 2.5%;
+  display: inline-block;
+  float: left;
+  border-radius: 51px;
+}
+
+.card img:hover{
+  cursor: context-menu;
+}

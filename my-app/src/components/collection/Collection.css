@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.233) 90%,
+      rgba(255, 255, 255, 0.212) 100%
+    ),
+    url(./src/background.jpg);
+  background-size: cover;
+}
+
+
+.header p {
+  margin: 0;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color : white;
+  font-size: 50px;
+  padding-top: 10px;
+}
