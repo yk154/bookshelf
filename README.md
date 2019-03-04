@@ -26,23 +26,23 @@
 **Under my-app folder, there is one more READMe.md for this** 
 
 ##### external package
-* I start to initialize react app by npm create-react-app my-app. Then, npm init react-app. Whenever I run the app, I do npm start.
+* I start to initialize react app by npm create-react-app my-app. Then, npm init react-app. Whenever I run the app, I do npm start. After done with implementing all requirements, I did npm run build
 * I attempted to use react-router-dom but currently displaying modal rather than navigating through router.
-'''
+```
 * npm install react-router-dom
 * npm install react-hot-loader
 * npm install reactstrap
 * npm install --save reactstrap react react-dom
 * npm install react-responsive-modal
-'''
+```
 
 ##### file I worked on
-'''
+```
 * src folder:  
     * index.js
     * App.js
     * Components folder: Collection (homepage), Item (preview + modal),
-'''
+```
 
 ##### Src Attributes
 * for background image on homepage, I downloaded from Google Search: https://encykorea.com/wallpaper-world-map/world-map-wallpapers-vintage-wallpaper-world-map/
