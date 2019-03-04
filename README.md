@@ -8,18 +8,18 @@
 **Option 1: Build a “bookshelf” app** 
 ** Our team decides not to do this exercise; I did individually for extra credit. **
 ###### All teams:
-* Your goal is to create a front-end web app that displays a collection of things. This can be your favourite books, TV shows, animals, travel destinations, etc. => * I decided to display travel destination *
-* The user should be able to see your entire collection on the homepage (i.e. the “preview” of each item). => * item component *
-* The user should be able to click on an item in your collection to see additional info about it. For example, a book item might show author, genre, publication date, etc. * ItemDetail Component, and it lands another page by React Router *
+* My goal is to create a front-end web app that displays a travel destination 
+* The user is able to see my entire collection on the homepage (i.e. the “preview” of each item). My item component enables this.
+* The user should be able to click on an item in your collection to see additional info about it. When the user click on an item, the modal for clicked item will be popping up and they can see when did I go, where was my favorite spot and whom I went with. 
 * Create your component architecture however you see fit. React requires components while Vue does not, but using components in Vue can be helpful.
-    * I divided into two components:
+    * So I divided into two components:
     ```
         <Collection /> - displays the complete collection on the home page
         <Item /> - displays the preview of one item. There are many items within your collection. And also, there is pop-up modal view for item detail.
     ```
 * You can hard-code your data store (name, image, details, etc.) in JSON format. Pass the data for each item in your collection as props into your components in React or Vue, or dynamically render the data using Vue binding directives if you choose not to use components.
+   * I made initial state and each detail for an item as json format.
 * You may use any external packages you think are helpful. However, we should be able to install all dependencies and run your app properly by following the instructions in your repo’s README (hint: write an easy-to-follow README!)
-
 
 ---
 
